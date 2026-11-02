@@ -55,6 +55,3 @@ either way, the tool will post the events - we just want feedback on whether the
 this breaks discord's terms of service. use it on accounts you're fine losing.
 provided as-is with no warranty.
 
-## license
-
-released under the mit license. see [LICENSE](LICENSE).
