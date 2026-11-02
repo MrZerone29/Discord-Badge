@@ -681,7 +681,6 @@ class App:
         C.info(f"{C.ORANGE}step {step} of {total}{C.WHITE} · {action} {C.ORANGE}{label}{C.WHITE} to continue")
         C.rule()
         C.info("opening it in your browser...")
-        webbrowser.open(url)
         for left in range(GATE_WAIT, 0, -1):
             print(f"\r  {C.GREY}continue available in {left}s...{C.RESET}  ", end="", flush=True)
             time.sleep(1)
